@@ -1,0 +1,57 @@
+<?php
+session_start();
+if(isset($_SESSION['id1']) && isset($_SESSION['password1'])){
+header("Location: login.html");
+}
+?>
+
+<!doctype html>
+<link href="loginstyle.css" type="text/css" rel="stylesheet" />
+<html>
+		<head>
+			<title> UTP Gate Pass Login </title>
+		</head>
+		<body>
+
+
+		<div class="Title">
+		<img src="http://i.imgur.com/0ipc0jG.jpg" style="width:auto;height:auto;" align="left">
+		<div ><br><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UTP Gate Pass System</h1><br></div>
+		</div>   
+				
+		</head>
+	
+         <h1 align ="center">Student Login</h1><br>
+     		 		
+         <form method="post" action="login.php" >
+			<div class="center_block Body">
+			<div class="content Table">
+			<div class="rTable" align="center">
+			<div class="rTableBody">
+			<div class="rTableRow">
+			<div class="rTableCell">  <label for="id">Student ID :</label> 
+					<input type="text" name="id1" id="id1" placeholder = "Demo : 12345" required autofocus> <br></div>
+			</div>
+			
+			<div class="rTableRow">
+			<div class="rTableCell">  <label for="password">Password :</label> 
+					<input type="password" name="password1" id="password1" placeholder = "Demo: qwer1234" required></input> <br></div> 
+			</div> 
+			 
+            <div class="rTableRow">
+			<div class="rTableCell"><input type="submit" value="Login" name = "submit"/>&nbsp;&nbsp;&nbsp;
+					<input type="reset" value="Reset"/></div><br>
+            </div>
+				
+			</div>
+			</div>	
+			</div> 
+			</div> 
+			</form>
+			
+			
+
+		 
+  
+   </body>
+</html>

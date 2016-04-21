@@ -1,0 +1,201 @@
+
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #72a2d0; 
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 177px;
+    height: 96px;
+    margin-left: 5px;
+}
+
+
+.navigation-bar > a {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    line-height: 60px;
+    letter-spacing: 4px;
+    border-top: 4px solid white;
+    transition: border-top .3s;
+}
+
+.navigation-bar > a:hover {
+    border-top: 8px solid #1e90ff;
+}
+
+.banner {
+        background-image: url("http://i.imgur.com/aUN5svN.jpg");
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        color: #FFFFFF;
+        padding: 14em 0;
+        text-align: center;
+        position: relative;
+        font-weight: bold;
+}
+
+
+.inner {
+    position: relative;
+    z-index: 1;
+
+}   
+
+.alt {
+    box-shadow: inset 0 0 0 1px #909090;
+    color: #ffffff !important;
+}
+
+.alt:hover {
+    background-color: #909090;
+}
+
+.alt:active {
+    background-color: #909090;
+}
+
+
+.button {
+    min-width: 12em;
+}
+
+.button {
+        background-color: #192024;
+        border-radius: 6px;
+        border: 0;
+        color: #ffffff !important;
+        cursor: pointer;
+        display: inline-block;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.125em;
+        font-size: 0.9em;
+        height: 2.85em;
+        line-height: 2.85em;
+        padding: 0 1.75em;
+        text-align: center;
+        text-decoration: none;
+        white-space: nowrap;
+        text-indent: 0.25em;
+}
+
+.big {
+    font-size: 1.2em;
+    height: 2.65em;
+    line-height: 2.65em;
+}
+.button:hover {
+    background-color: #232d33;
+}
+
+.button:active {
+    background-color: #0f1315;
+}
+
+.alt {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 1px #909090;
+    color: #FFFFFF;
+}
+.alt:hover {
+    background-color: #909090;
+    color: #FFFFFF;
+}
+
+.special {
+    background-color: #629DD1;
+    color: #ffffff;
+}
+.special:hover {
+     background-color: #76a9d7;
+}
+
+            
+.special:active {
+    background-color: #4e91cb;
+}
+
+ul.actions {
+    list-style: none;
+    padding-left: 0;
+}
+ul.actions li {
+    display: inline-block;
+    padding: 0 1em 0 0;
+    vertical-align: middle;
+}
+
+
+body{
+ margin: 0;
+ padding: 0;
+ background: #404350;
+ background: url(pattern.png) repeat;
+ font-family: 'Lato', sans-serif; 
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+ul.staff {
+     list-style: none;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+               

@@ -1,0 +1,85 @@
+<html>
+<head>
+	<title>UTP Gate Management</title>
+	<link rel="stylesheet" type="text/css" href="mainpage.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="mainpage.js"></script>
+</head>
+	<body>
+		<nav class="navigation-bar">
+		    <img class="logo" src="http://i.imgur.com/998mkGE.png">
+		    <a href="https://www.utp.edu.my/The%20University/Directories/SitePages/Home.aspx">Contact Us</a>
+		    <a href="adminlogin.html">Security</a>
+		    <a href="login.html">Student</a>
+		    <a href="https://www.utp.edu.my/SitePages/Home.aspx">Home</a>
+		</nav>
+
+		<!-- Banner -->
+		<section class="banner">
+			<div class="inner">
+				<h2><b>Universiti Teknologi Petronas</b></h2>
+				<ul class="actions">
+					<li><a href="login.html" class="button big special">Fill In Exit Form</a></li>
+					<li><a id="myBtn" href="#elements" class="button big alt">Learn More</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <span class="close">x</span>
+		    <p>Press Security to login as security staff</p>
+		    <p>Press Student to fill the form that allows you to leave UTP</p>
+			<img src="https://i.imgur.com/ESqonQh.jpg" alt="Memo">
+		  </div>
+
+		</div>
+  
+		<script>
+			// Get the modal
+			var modal = document.getElementById('myModal');
+
+			// Get the button that opens the modal
+			var btn = document.getElementById("myBtn");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks the button, open the modal 
+			btn.onclick = function() {
+			    modal.style.display = "block";
+			}
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+			    modal.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+			    if (event.target == modal) {
+			        modal.style.display = "none";
+			    }
+			}
+		</script>
+
+
+
+		<div class="footer">
+		     <div>
+	    	     <h1>Creators:</h1>     
+	             <ul class="staff">
+		          	<li>Jose - Programmer</li>
+		            <li>Amirul - Programmer</li>
+		            <li>Murshid - Programmer</li>
+		            <li>Afnan - Programmer</li>
+		            <li>Hamizan - Programmer</li>
+	             </ul>
+	    		</div>
+		</div>
+
+	</body>
+</html>
